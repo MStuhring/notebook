@@ -39,3 +39,23 @@ git rm --cached <file>
 
 # Rename a file
 git mv <old file> <new file>
+
+# add a remote called origin (key) that refers to a URL (value)
+# allows me to push (and pull) commits to and from the remote
+git remote add origin URL
+
+# push the current branch (master) to a branch (also master) on the origin remote
+# the first master refers to the local branch
+# the second master refers to the remote branch
+# the -u flag sets the upstream (connects the two branches)
+~/P/w/notebook master ✔ git push -u origin master
+
+# once the local master branch is connected to a remote branch,
+  I don't need to specify the remote or branch names
+~/P/w/notebook master ✔ git push
+
+# also shows the history of the local and remote branches
+git ll
+
+# git status shortcut
+git st
