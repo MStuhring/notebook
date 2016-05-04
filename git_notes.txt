@@ -23,3 +23,9 @@ git commit -m 'message'
 
 # Creates a special file that acts as the bouncer to the staging area.  The path will be ignored.
 touch .gitignore
+
+# Remove file
+git rm <file>
+
+# Take file out of the staging area (unstage file)
+git rm --cached <file> 
