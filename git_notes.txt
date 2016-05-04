@@ -21,11 +21,21 @@ git ll
 # commits the changes in the staging area to the commits area and cleans out the staging area (prepares it for the next commit)
 git commit -m 'message'
 
+# A commit contains
+    - unique ID
+    - changes
+    - message
+    - timestamp
+    - author
+
 # Creates a special file that acts as the bouncer to the staging area.  The path will be ignored.
 touch .gitignore
 
 # Remove file
 git rm <file>
 
-# Take file out of the staging area (unstage file)
-git rm --cached <file> 
+# Take file out of the staging area (Unstage a file)
+git rm --cached <file>
+
+# Rename a file
+git mv <old file> <new file>
