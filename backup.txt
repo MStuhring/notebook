@@ -1,0 +1,160 @@
+# prints current working directory
+pwd
+
+# list the content of the working directory
+ls
+
+# lists directories in long format
+ll
+
+# opens folder through the terminal
+open
+
+# Current working directory
+.
+
+# Creates a new file
+touch
+
+# Displays file in the terminal
+cat
+
+# Copy file
+cp
+
+# move to root directory
+cd /
+
+# Go back a directory
+cd ..
+
+# Home directory
+~
+
+# move to home directory
+cd
+
+# make a directory
+mkdir
+
+#
+rm
+
+history
+#
+grep Matt notes.txt
+cat notes.txt
+echo 'Hello Matt' >>notes.txt
+man rm
+ll
+rm whatever.txt
+cat notes.txt whatever.txt
+cp notes.txt whatever.txt
+atom notes.txt
+open notes.txt
+touch notes.txt
+cd notebook/
+cd n
+mkdir notebook
+man mkdir
+pwd
+cd week1/
+mkdir week1
+cd Projects/
+~
+ls
+cd Library/
+cd ..
+cd Documents/
+cd Applications
+cd Filesystems
+cd library
+ls .
+.
+cd /
+cd ../
+cd ~
+tree -L 2
+tree -L 1
+brew install tree
+echo ~
+open pictures
+open
+open .
+
+# shortcut for ls -hl
+ll
+
+ls -h
+ls -l
+echo 'asdf'
+ls -hal
+open Documents
+man ls
+id
+ls -n
+ls -r
+ls -U
+ls -m
+ls -t
+ls -lSha
+ls -lS
+ls -S
+ls -@
+cat .config/fish/config.fish
+ll .config/fish
+ll .config
+ls documents
+groups
+whoami
+open http://mattstuhring.surge.sh
+surge
+git commit -m 'Add a CNAME'
+git add CNAME
+touch CNAME
+git commit -m 'Add a tiny web page'
+git add index.html
+open index.html
+atom .
+touch index.html
+git init
+cd mattstuhring.surge.sh
+mkdir mattstuhring.surge.sh
+cd ~/Projects
+mkdir ~/Projects
+surge -V
+npm install -g surge
+rm ~/Desktop/test.js
+node ~/Desktop/test.js
+atom ~/Desktop/test.js
+node
+1+2
+node -v
+brew install node
+curl -fsSL https://git.io/vgqFH | sh
+git config --global user.email
+git config --global user.name
+git config --global user.email 'whereyouatmatt@gmail.com'
+git config --global user.name 'Matt Stuhring'
+which git
+brew update
+git --version
+brew install git
+which which
+echo $PATH
+which echo
+which brew
+echo $EDITOR
+atom ~/.config/fish/config.fish
+brew info fish
+fish_update_completions
+curl -fsSL https://git.io/vgqFU | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ls -G
+ls-G
+uname
+which atom

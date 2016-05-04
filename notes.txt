@@ -1,0 +1,70 @@
+# prints current working directory
+pwd
+
+# list the content of the working directory
+ls
+
+# lists directories in long format
+ll
+
+# opens folder through the terminal
+open
+ex. open notes.txt
+
+# Current working directory
+.
+
+# Creates a new file
+touch
+ex. touch notes.txt
+
+# Displays file in the terminal
+cat
+ex. cat notes.txt
+
+# Copy file
+cp
+
+# move to root directory
+cd /
+
+# Go back a directory
+cd ..
+
+# Home directory
+~
+
+# move to home directory
+cd
+
+# make a directory
+mkdir
+
+# remove empty directory only
+rmdir
+
+# remove a file or anything else
+rm
+
+# move file up directory
+mv
+ex. mv notes.txt ../
+
+# move file down directory
+mv
+ex. mv ../notes.txt
+
+# Easily read large files in a pager
+less
+ex less notes.txt
+
+# Rename file
+cp
+ex. cp notes.txt notebook.txt
+
+# Search directory for search word
+grep
+ex. grep Matt notes.txt
+
+# displays directory in a tree format with specified level
+tree -L 1
