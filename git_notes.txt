@@ -1,0 +1,25 @@
+# initialize a git repository
+# create a .git folder in the current working directory
+git init
+
+# take a look at the staging area
+# files can be
+    - untracked
+    - tracked
+    - committed (not in the staging area anymore)
+git status
+
+# adds changes in a file to the staging area
+git add <file>
+
+# take a look at the commits area
+git log
+
+# like git log but less verbose
+git ll
+
+# commits the changes in the staging area to the commits area and cleans out the staging area (prepares it for the next commit)
+git commit -m 'message'
+
+# Creates a special file that acts as the bouncer to the staging area.  The path will be ignored.
+touch .gitignore
